@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container-fluid my-4 px-0">
+  <div id="carouselExample" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://media.istockphoto.com/id/1456234806/photo/mango-ice-cream-served-in-cup-isolated-on-grey-background-top-view-of-indian-and-bangladesh.jpg?s=2048x2048&w=is&k=20&c=roTFn2xy4mwGPoV-rOJ8l3ZCh2xfNnn6aaUVY-crPY4="
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://media.istockphoto.com/id/1457639493/photo/high-angle-food-shot-ice-cream.jpg?s=2048x2048&w=is&k=20&c=kTducoJU2Ps2X-CLgS2hGMyYuLA_RxtzYLvePIOt2FY="
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://media.istockphoto.com/id/1292019504/photo/happy-smiling-child-girl-stock-photo.jpg?s=2048x2048&w=is&k=20&c=CqtjURd3k72fR1-lGfP3lz0M1TN__rXhRU4UMcAdL6o="
+          class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div class="container my-3">
+
+  <h1 class="my-1 text-center">Select from range of ice cream </h1>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+      <img 
+      src="https://media.istockphoto.com/id/1309067454/photo/shot-of-a-young-woman-eating-icecream-sundae-at-home-stock-photo.jpg?s=2048x2048&w=is&k=20&c=TaMvPZsvWZsgtAS3imQgxGZcDRJA3S5hortF7KXjkBM="
+          alt="">
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/1487370544/photo/children-eating-ice-cream-in-the-summer.jpg?s=2048x2048&w=is&k=20&c=vI3jAGpRJm2C5koZfxxcALuKG1VE5m8q3BIX2AEL9a8=" alt="">
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://media.istockphoto.com/id/1487370544/photo/children-eating-ice-cream-in-the-summer.jpg?s=2048x2048&w=is&k=20&c=vI3jAGpRJm2C5koZfxxcALuKG1VE5m8q3BIX2AEL9a8=" alt="">
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endblock body %}
